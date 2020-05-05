@@ -164,3 +164,9 @@ cython_debug/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Project specific (generated or local install files)
+/flask-api/static
+/flask-api/templates/*
+/react-front-end/node_modules
