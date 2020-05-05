@@ -5,7 +5,7 @@
 1. Build front end
    1. Have npm / yarn installed
    2. `cd ./react-front-end`
-   3. Build node using `npminstall && npm build` (or `yarn install && yarn build`) in `react-front-end` directory
+   3. Build node project using `npm install && npm build` (or `yarn install && yarn build`) in `react-front-end` directory
 2. Run back end
    1. (Optional) RECOMMENDED: create python virtual environment and activate it:
       1. `cd ../` (should be a project root)
