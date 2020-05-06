@@ -26,7 +26,7 @@
          * `python3 -m venv env`
       1. Activate the virtual environment:
          1. Mac/*nix system: 
-            * source [root]/env/bin/activate`
+            * `source [root]/env/bin/activate`
          1. Windows:
             * `[root]\env\Scripts\activate.bat`
       1. Go back to project root:
