@@ -2,7 +2,7 @@
 
 ## To run
 
-### Option1 - Run the script:
+### Option 1 - Run the script:
    1. Get permission to run the script (Mac/*nix systems):
       * `chmod a+x ./run.sh`
    2. Run it
