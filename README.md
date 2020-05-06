@@ -2,17 +2,19 @@
 
 ## To run
 
-1. Build front end
-   1. Have npm / yarn installed
-   2. `cd ./react-front-end`
-   3. Build node project using `npm install && npm build` (or `yarn install && yarn build`) in `react-front-end` directory
-2. Run back end
+1. Build front end:
+   1. Have npm or yarn installed.
+   2. From the directory of this project go to React directory: `cd ./react-front-end`
+   3. Build node project using `npm install && npm run-script build` (or `yarn install && yarn build` if you use yarn) in `react-front-end` directory.
+1. Run back end:
    1. (Optional) RECOMMENDED: create python virtual environment and activate it:
-      1. `cd ../` (should be a project root)
-      2. `python3 -m venv venv`
-      3. Mac / *nix system: `source venv/bin/activate`
-      4. Windows: `venv\Scripts\activate.bat`
-   2. `cd ./flask-api`
-   3. Have python3 and dependencies installed - use `pip install -r flask-api/requirements.txt`
-   4. `flask run`
-   5. Goto <http://localhost:5000> and have fun!
+      1. Install vitrualenv if not already installed: `python3 -m pip install --user virtualenv`
+      1. `cd ../` (should be at the project root)
+      1. `python3 -m venv env`
+      1. Activate the virtual environment:
+         1. Mac/*nix system: `source env/bin/activate`
+         1. Windows: `env\Scripts\activate.bat`
+   1. `cd ./flask-api`
+   1. Have python3 and dependencies installed: `pip install -r requirements.txt`
+   1. Start the server using the local flask executable:`../env/bin/flask run`
+   1. Goto <http://localhost:5000> and have fun!
