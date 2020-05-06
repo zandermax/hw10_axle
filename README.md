@@ -6,7 +6,7 @@
    1. Get permission to run the script:
       * `chmod a+x ./run.sh`
    2. Run it
-      * `./run.sh'
+      * `./run.sh`
 
 ### Option 2 - Manually build and run it yourself:
 1. Build front end:
